@@ -1,25 +1,53 @@
 # 📄 MIME TYPE NEDİR?
 
-**Yazar:** Bahadır B. Bekdemir  
-**Tarih:** 15.01.2026  
-**Versiyon:** 1.0
-MIME Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta eklentileri türü), çok sayıda farklı uzantılardaki dosyaları tanımlamak ve birbirinden ayırmak için dosya
-kimlik tanımlayıcısıdır. MIME (Multipurpose Internet Mail Extensions) (çok amaçlı internet posta eklentileri), 1992 yılında IETF (Internet Engineering Task Force) (internet mühendisliği görev kuvveti) tarafından
-tanımlanmıştır. Genellikle mail programları ve browser'lar (tarayıcılar) tarafından kullanılır. Bu sayede browser (tarayıcı), HTML (Hyper Text Markup Language) (zengin metin işaretleme dili)
-biçiminde veya gösterebileceği türde bir dosya olup olmadığını algılayarak ne yapması gerektiğini bilir. Örneğin; Herhangi bir browser'da (tarayıcıda) bir video dosyasını görüntülenmek
-istendiğinde, browser (tarayıcı) dahil edilen video dosyası uzantısı olan .mp4 dosyasının MIME Type'ını (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta eklentileri türünü)
-bilmek zorundadır. Aksi halde browser (tarayıcı) ilgili video dosyasının ne olduğunu algılayamayacaktır ve video dosyasını açamayacaktır. Web server'larında (sunucularında) en sık
-kullanılan MIME Type'lar (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta eklentileri türleri) önceden tanımlıdır. Fakat bazı özel uygulamalarda, web sitesi için yeni bir MIME
-Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta eklentileri türü) tanımlama ihtiyacı duyulabilir. Bu gibi durumlarda server'a (sunucuya) eklenmesi gereken MIME Type
-(Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta eklentileri türü) bilgisini bilmek gerekir. Aşağıda en çok kullanılmakta olan MIME Type (Multipurpose Internet Mail Extensions Type)
-(çok amaçlı internet posta eklentileri türü) bilgileri listelenmektedir. (Referans: RFC6838 - RFC4855) (Apache httpd conf RFC4288)
+🗂️ **MIME Type (Multipurpose Internet Mail Extensions Type) nedir?**
+
+---
+
+MIME Type, yani **Çok Amaçlı İnternet Posta Eklentileri Türü**, dosyaların **kimlik tanımlayıcısı** olarak görev yapar. 🌐 Farklı uzantıya sahip yüzlerce dosya türünü tanımlamak ve birbirinden ayırmak için kullanılır.
+
+---
+
+🔍 **Tarihçesi:**
+- 📅 İlk olarak **1992** yılında **IETF** (Internet Engineering Task Force) tarafından tanımlanmıştır.
+
+---
+
+📫 **Kullanım Alanları:**
+- 📧 **E-posta (Mail) programları**
+- 🌍 **Web tarayıcıları (Browser'lar)**
+
+Tarayıcılar, bir dosyanın örneğin HTML mi yoksa farklı bir tür (örn. video 🎬) mü olduğunu anlayarak ne yapacağına MIME Type sayesinde karar verir.
+
+---
+
+🎞️ **Örnek Senaryo:**
+Bir web tarayıcısında `.mp4` uzantılı bir video dosyasını oynatmak için, tarayıcı ilgili **MIME Type**'ı (ör: `video/mp4`) bilmek zorundadır. Aksi takdirde video dosyasını açamaz ve ne tür bir içerikle karşılaştığını anlayamaz.
+
+---
+
+🛠️ **Web Sunucularında Kullanımı:**
+Web sunucuları (server'lar), en yaygın kullanılan MIME Type’ları **önceden tanımlı** olarak saklar.  
+Bazı özel uygulamalarda ise, yeni bir MIME Type tanımlama gereksinimi olabilir. Böyle durumlarda, sunucuya eklenmesi gereken doğru MIME Type bilgisinin bilinmesi gerekmektedir.
+
+---
+
+📋 **Aşağıda en çok kullanılan MIME Type'lar örnek olarak listelenmiştir:**
+
+### 📑 İçindekiler
+
+- [💻 Application (Uygulama) Dosyaları](#-application-uygulama-dosyaları)
+- [🎵 Audio (Ses) Dosyaları](#-audio-ses-dosyaları)
+- [🖼️ Image (Resim) Dosyaları](#️-image-resim-dosyaları)
+- [📝 Text (Metin) Dosyaları](#-text-metin-dosyaları)
+- [🎬 Video Dosyaları](#-video-dosyaları)
 
 ---
 
 ## 💻 Application (Uygulama) Dosyaları
 
 | İkon | Dosya Uzantısı | MIME Type |
-|------|----------------|-----------|
+|:----:|:--------------:|:---------:|
 | 📦 | `.7z` | `application/x-7z-compressed` |
 | 📱 | `.air` | `application/vnd.adobe.air-application-installer-package+zip` |
 | 📱 | `.apk` | `application/vnd.android.package-archive` |
@@ -37,9 +65,7 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 | 📋 | `.inf` | `application/inf` |
 | 💿 | `.iso` | `application/x-iso9660-image` |
 | ☕ | `.jar` | `application/java-archive` |
-| 📜 | `.js` | `application/javascript` |
-| 📜 | `.js` | `application/x-javascript` |
-| 📜 | `.js` | `application/ecmascript` |
+| 📜 | `.js` | `application/javascript` / `application/x-javascript` / `application/ecmascript` |
 | 📋 | `.json` | `application/json` |
 | 🎵 | `.m3u8` | `application/vnd.apple.mpegurl` |
 | 💾 | `.mdb` | `application/x-msaccess` |
@@ -74,7 +100,7 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 ## 🎵 Audio (Ses) Dosyaları
 
 | İkon | Dosya Uzantısı | MIME Type |
-|------|----------------|-----------|
+|:----:|:--------------:|:---------:|
 | 🎵 | `.aac` | `audio/x-aac` |
 | 🎵 | `.aif` | `audio/x-aiff` |
 | 🎵 | `.aiff` | `audio/x-aiff` |
@@ -92,7 +118,7 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 ## 🖼️ Image (Resim) Dosyaları
 
 | İkon | Dosya Uzantısı | MIME Type |
-|------|----------------|-----------|
+|:----:|:--------------:|:---------:|
 | 🖼️ | `.bmp` | `image/bmp` |
 | 🖼️ | `.gif` | `image/gif` |
 | 🎨 | `.ico` | `image/x-icon` |
@@ -109,7 +135,7 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 ## 📝 Text (Metin) Dosyaları
 
 | İkon | Dosya Uzantısı | MIME Type |
-|------|----------------|-----------|
+|:----:|:--------------:|:---------:|
 | ⚙️ | `.conf` | `text/plain` |
 | 🎨 | `.css` | `text/css` |
 | 📊 | `.csv` | `text/csv` |
@@ -117,8 +143,7 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 | 🌐 | `.html` | `text/html` |
 | 📱 | `.jad` | `text/vnd.sun.j2me.app-descriptor` |
 | ☕ | `.java` | `text/x-java-source` |
-| 📜 | `.js` | `text/javascript` |
-| 📜 | `.js` | `text/ecmascript` |
+| 📜 | `.js` | `text/javascript` / `text/ecmascript` |
 | 📋 | `.log` | `text/plain` |
 | 📋 | `.sgm` | `text/sgml` |
 | 📋 | `.sgml` | `text/sgml` |
@@ -129,7 +154,7 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 ## 🎬 Video Dosyaları
 
 | İkon | Dosya Uzantısı | MIME Type |
-|------|----------------|-----------|
+|:----:|:--------------:|:---------:|
 | 🎬 | `.avi` | `video/x-msvideo` |
 | 🎬 | `.flv` | `video/x-flv` |
 | 🎬 | `.mov` | `video/quicktime` |
@@ -143,5 +168,16 @@ Type (Multipurpose Internet Mail Extensions Type) (çok amaçlı internet posta 
 
 ---
 
-**Dokümantasyon:** Bahadır B. Bekdemir  
-**Son Güncelleme:** 15.01.2026
+---
+
+## 📌 Dokümantasyon Bilgileri
+
+| Bilgi | Detay |
+|-------|-------|
+| 👤 **Yazar** | Bahadır B. Bekdemir |
+| 📅 **Tarih** | 15.01.2026 |
+| 🔢 **Versiyon** | 1.0 |
+
+---
+
+> 📚 **Referanslar:** RFC6838, RFC4855, RFC4288, Apache httpd conf
