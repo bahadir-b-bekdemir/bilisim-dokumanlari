@@ -1,7 +1,5 @@
 # 📄 MIME TYPE NEDİR?
 
-## 🗂️ MIME Type Nedir?
-
 MIME Type, yani **Çok Amaçlı İnternet Posta Eklentileri Türü** (Multipurpose Internet Mail Extensions Type), dosyaların **kimlik tanımlayıcısı** olarak görev yapar. 🌐 Farklı uzantıya sahip yüzlerce dosya türünü tanımlamak ve birbirinden ayırmak için kullanılır.
 
 ---
