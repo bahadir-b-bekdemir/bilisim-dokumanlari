@@ -1,40 +1,38 @@
 # 📄 MIME TYPE NEDİR?
 
-🗂️ **MIME Type (Multipurpose Internet Mail Extensions Type) nedir?**
+## 🗂️ MIME Type Nedir?
+
+MIME Type, yani **Çok Amaçlı İnternet Posta Eklentileri Türü** (Multipurpose Internet Mail Extensions Type), dosyaların **kimlik tanımlayıcısı** olarak görev yapar. 🌐 Farklı uzantıya sahip yüzlerce dosya türünü tanımlamak ve birbirinden ayırmak için kullanılır.
 
 ---
 
-MIME Type, yani **Çok Amaçlı İnternet Posta Eklentileri Türü**, dosyaların **kimlik tanımlayıcısı** olarak görev yapar. 🌐 Farklı uzantıya sahip yüzlerce dosya türünü tanımlamak ve birbirinden ayırmak için kullanılır.
+### 🔍 Tarihçesi
 
----
+📅 İlk olarak **1992** yılında **IETF** (Internet Engineering Task Force) tarafından tanımlanmıştır.
 
-🔍 **Tarihçesi:**
-- 📅 İlk olarak **1992** yılında **IETF** (Internet Engineering Task Force) tarafından tanımlanmıştır.
+### 📫 Kullanım Alanları
 
----
-
-📫 **Kullanım Alanları:**
 - 📧 **E-posta (Mail) programları**
 - 🌍 **Web tarayıcıları (Browser'lar)**
 
 Tarayıcılar, bir dosyanın örneğin HTML mi yoksa farklı bir tür (örn. video 🎬) mü olduğunu anlayarak ne yapacağına MIME Type sayesinde karar verir.
 
----
+### 🎞️ Örnek Senaryo
 
-🎞️ **Örnek Senaryo:**
 Bir web tarayıcısında `.mp4` uzantılı bir video dosyasını oynatmak için, tarayıcı ilgili **MIME Type**'ı (ör: `video/mp4`) bilmek zorundadır. Aksi takdirde video dosyasını açamaz ve ne tür bir içerikle karşılaştığını anlayamaz.
 
----
+### 🛠️ Web Sunucularında Kullanımı
 
-🛠️ **Web Sunucularında Kullanımı:**
-Web sunucuları (server'lar), en yaygın kullanılan MIME Type’ları **önceden tanımlı** olarak saklar.  
+Web sunucuları (server'lar), en yaygın kullanılan MIME Type'ları **önceden tanımlı** olarak saklar.  
 Bazı özel uygulamalarda ise, yeni bir MIME Type tanımlama gereksinimi olabilir. Böyle durumlarda, sunucuya eklenmesi gereken doğru MIME Type bilgisinin bilinmesi gerekmektedir.
 
 ---
 
-📋 **Aşağıda en çok kullanılan MIME Type'lar örnek olarak listelenmiştir:**
+### 📋 MIME Type Listesi
 
-### 📑 İçindekiler
+Aşağıda en çok kullanılan MIME Type'lar örnek olarak listelenmiştir:
+
+#### 📑 İçindekiler
 
 - [💻 Application (Uygulama) Dosyaları](#-application-uygulama-dosyaları)
 - [🎵 Audio (Ses) Dosyaları](#-audio-ses-dosyaları)
@@ -167,13 +165,10 @@ Bazı özel uygulamalarda ise, yeni bir MIME Type tanımlama gereksinimi olabili
 | 🎬 | `.wmv` | `video/x-ms-wmv` |
 
 ---
-
----
-
 ## 📌 Dokümantasyon Bilgileri
 
 | Bilgi | Detay |
-|-------|-------|
+|:------|:------|
 | 👤 **Yazar** | Bahadır B. Bekdemir |
 | 📅 **Tarih** | 15.01.2026 |
 | 🔢 **Versiyon** | 1.0 |
